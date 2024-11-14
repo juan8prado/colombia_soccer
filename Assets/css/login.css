@@ -1,0 +1,599 @@
+body {
+  background-image: url('../images/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: block;
+  opacity: 1;
+  transition: none;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Contenedor del slider */
+.branding-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  margin: 1px;
+  margin-left: 200px;
+  margin-top: 75px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Contenedor de Swiper */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Deslizador de Swiper */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Imágenes dentro de Swiper */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* Estilo para el contenedor de paginación */
+.swiper-pagination {
+  width: 130px !important;
+  /* Establece el ancho deseado */
+  background-color: rgba(250, 250, 250, 0.828);
+  /* Fondo blanco con 51.7% de opacidad */
+  padding: 10px;
+  /* Ajusta el espacio alrededor de la paginación */
+  border-radius: 8px;
+  /* Opcional: bordes redondeados */
+  display: flex;
+  /* Alinea los bullets horizontalmente */
+  justify-content: center;
+  /* Centra los bullets dentro del contenedor */
+  margin-left: 180px;
+
+}
+
+/* Estilo para los bullets de paginación */
+.swiper-pagination-bullet {
+  background-color: #03ffe6;
+  /* Color de los bullets de paginación */
+  width: 12px;
+  /* Tamaño de los bullets */
+  height: 12px;
+  /* Tamaño de los bullets */
+  opacity: 0.8;
+  /* Opcional: transparencia de los bullets */
+  border-radius: 50%;
+  /* Asegura que los bullets sean redondos */
+}
+
+/* Estilo para el bullet activo */
+.swiper-pagination-bullet-active {
+  background-color: #00796b;
+  /* Color del bullet activo */
+}
+
+
+
+.swiper-pagination-bullet {
+  background-color: #009688;
+  /* Color de los bullets de paginación */
+  width: 12px;
+  /* Tamaño de los bullets */
+  height: 12px;
+  /* Tamaño de los bullets */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00796b;
+  /* Color del bullet activo */
+}
+
+
+.branding-section h1 {
+  font-size: 2.5rem;
+  color: #009688;
+}
+
+.branding-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.highlight {
+  color: #009688;
+  font-weight: bold;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-head {
+  font-size: 1.5rem;
+  color: #009688;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-container button {
+  width: 100%;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  background-color: #00796b;
+}
+
+.utility {
+  display: flex;
+  justify-content: space-between;
+}
+
+.utility a {
+  color: #009688;
+  text-decoration: none;
+}
+
+.utility a:hover {
+  text-decoration: underline;
+}
+
+.login-content .logo {
+  margin-bottom: 40px;
+  font-family: "Niconne";
+  color: #fff;
+}
+
+.login-content .logo h1 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.login-content .login-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 440px;
+  margin: 1px;
+
+  margin-top: 75px;
+  background-color: #efefef;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 29px 147.5px 102.5px rgba(0, 0, 0, 0.05), 0px 29px 95px 0px rgba(0, 0, 0, 0.16);
+  transition: all 0.5s ease-in-out;
+}
+
+.login-content .login-box .login-head {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #295f4d;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.login-content .login-box label {
+  color: #000;
+  font-weight: 700;
+  margin-left: 300px;
+}
+
+.login-content .login-box .utility {
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-content .login-box .btn-container {
+  margin-bottom: 0;
+}
+
+.login-content .login-box .login-form,
+.login-content .login-box .forget-form {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  backface-visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-content .login-box .forget-form {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.login-content .login-box.flipped {
+  min-height: 300px;
+}
+
+.login-content .login-box.flipped .login-form {
+  opacity: 0;
+  transform: rotateY(-180deg);
+}
+
+.login-content .login-box.flipped .forget-form {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+@media (max-width: 351px) {
+  .login-content .login-box {
+    min-width: 100%;
+  }
+
+  .login-content .login-box .login-form {
+    width: 100%;
+  }
+}
+
+.balon_login {
+  width: 0.65em;
+  margin-bottom: -0.8%;
+}
+
+.balon_login_2 {
+  width: 1em;
+  margin-bottom: -0.8%;
+}
+
+.sweet-alert[data-has-cancel-button=false] button {
+  box-shadow: none !important;
+}
+
+.sweet-alert[data-has-confirm-button=false][data-has-cancel-button=false] {
+  padding-bottom: 40px;
+}
+
+.sweet-alert .sa-icon.sa-error {
+  border-color: #F27474;
+}
+
+.sweet-alert .sa-icon.sa-error .sa-x-mark {
+  position: relative;
+  display: block;
+}
+
+.sweet-alert .sa-icon.sa-error .sa-line {
+  position: absolute;
+  height: 5px;
+  width: 47px;
+  background-color: #F27474;
+  display: block;
+  top: 37px;
+  border-radius: 2px;
+}
+
+.sweet-alert .sa-icon.sa-error .sa-line.sa-left {
+  transform: rotate(45deg);
+  left: 17px;
+}
+
+.sweet-alert .sa-icon.sa-error .sa-line.sa-right {
+  transform: rotate(-45deg);
+  right: 16px;
+}
+
+body.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.sweet-alert {
+  background-color: white;
+  width: 478px;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -259px;
+  margin-top: -200px;
+  box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: none;
+  z-index: 99999;
+}
+
+@media all and (max-width: 540px) {
+  .sweet-alert {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 15px;
+    right: 15px;
+  }
+}
+
+.sweet-alert h2 {
+  color: #575757;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+.sweet-alert p {
+  color: #797979;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.sweet-alert fieldset {
+  border: none;
+}
+
+.sweet-alert .sa-error-container {
+  background-color: #f1f1f1;
+  margin-left: -17px;
+  margin-right: -17px;
+  overflow: hidden;
+  padding: 0 10px;
+  max-height: 0;
+  transition: padding 0.15s, max-height 0.15s;
+}
+
+.sweet-alert .sa-error-container.show {
+  padding: 10px 0;
+  max-height: 100px;
+  transition: padding 0.25s, max-height 0.25s;
+}
+
+.sweet-alert .sa-error-container .icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ea7d7d;
+  color: white;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 3px;
+}
+
+.sweet-alert .sa-error-container .icon svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+  vertical-align: middle;
+}
+
+.sweet-alert .sa-error-container .text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #ea7d7d;
+  margin-left: 6px;
+}
+
+@media (min-width: 993px) {
+  .sweet-alert {
+    width: 500px;
+  }
+}
+
+@media (max-width: 544px) {
+  .sweet-alert {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .sweet-alert {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .sweet-alert {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .sweet-alert {
+    width: 100%;
+  }
+}
+
+.sweet-alert button {
+  border: none;
+  outline: none;
+  background-color: #009688;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sweet-alert button:hover {
+  background-color: #00796b;
+}
+
+.sweet-alert button.cancel {
+  background-color: #aaa;
+}
+
+.sweet-alert button.cancel:hover {
+  background-color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para teléfonos pequeños */
+@media (max-width: 767px) {
+  .login-content {
+    display: flex;
+    /* Utiliza flexbox para organizar los elementos */
+    flex-direction: column;
+    /* Coloca los elementos en una columna */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    height: 100vh;
+    /* Ajusta la altura del contenedor al 100% de la ventana del navegador */
+    width: 80%;
+    /* Ajusta el ancho del contenedor */
+    margin-top: 80px;
+    margin-left: 50px;
+
+
+  }
+
+
+
+
+
+  .branding-section {
+    width: 100%;
+    /* Ajusta el slider al ancho completo de la pantalla */
+    height: 100%;
+    /* Aumenta la altura del slider para cubrir el área completa */
+    margin: 0;
+    /* Elimina el margen para ajustar el tamaño */
+    padding: 0;
+    position: absolute;
+    /* Coloca el slider en una posición absoluta para superponerlo */
+    top: 0;
+    /* Coloca el slider en la parte superior */
+    left: 0;
+    /* Coloca el slider en la parte izquierda */
+    z-index: 0;
+    /* Envía el slider detrás del formulario */
+  }
+
+
+
+
+  /* Asegura que el slider esté encima del formulario */
+  .swiper-container {
+    position: absolute;
+    /* Coloca el contenedor del slider en una posición absoluta */
+    top: 0;
+    /* Coloca el slider en la parte superior */
+    left: 0;
+    /* Coloca el slider en la parte izquierda */
+    width: 100%;
+    /* Ajusta el ancho del slider al ancho completo de la pantalla */
+    height: 300px;
+    /* Define la altura del slider */
+    z-index: 0;
+    /* Envía el slider detrás del formulario */
+
+  }
+
+  .swiper-pagination {
+    text-align: center;
+    /* Centra horizontalmente */
+    margin-left: 132px;
+    /* Elimina el margen izquierdo */
+
+
+  }
+
+
+  .swiper-slide img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 95%;
+    height: 100%;
+    /* Ajusta las imágenes para que llenen el slider */
+  }
+}

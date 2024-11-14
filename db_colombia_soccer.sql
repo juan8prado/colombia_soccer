@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-11-2024 a las 04:53:33
+-- Tiempo de generación: 14-11-2024 a las 05:07:15
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -92,6 +92,13 @@ CREATE TABLE `detalle_pedido` (
   `precio` decimal(11,2) NOT NULL,
   `cantidad` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_swedish_ci;
+
+--
+-- Volcado de datos para la tabla `detalle_pedido`
+--
+
+INSERT INTO `detalle_pedido` (`id`, `pedidoid`, `productoid`, `precio`, `cantidad`) VALUES
+(4, 3, 8, 100000.00, 1);
 
 -- --------------------------------------------------------
 
@@ -186,6 +193,13 @@ CREATE TABLE `pedido` (
   `direccion_envio` text NOT NULL,
   `status` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_swedish_ci;
+
+--
+-- Volcado de datos para la tabla `pedido`
+--
+
+INSERT INTO `pedido` (`idpedido`, `referenciacobro`, `idtransaccionpaypal`, `datospaypal`, `personaid`, `fecha`, `costo_envio`, `monto`, `tipopagoid`, `direccion_envio`, `status`) VALUES
+(3, NULL, NULL, NULL, 1, '2024-11-13 23:01:24', 5.00, 100005.00, 2, 'HHG, GD', 'Pendiente');
 
 -- --------------------------------------------------------
 
@@ -546,7 +560,7 @@ ALTER TABLE `contacto`
 -- AUTO_INCREMENT de la tabla `detalle_pedido`
 --
 ALTER TABLE `detalle_pedido`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `detalle_temp`
@@ -570,7 +584,7 @@ ALTER TABLE `modulo`
 -- AUTO_INCREMENT de la tabla `pedido`
 --
 ALTER TABLE `pedido`
-  MODIFY `idpedido` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idpedido` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `permisos`

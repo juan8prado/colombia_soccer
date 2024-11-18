@@ -142,7 +142,7 @@ $infoPreguntas = !empty(getInfoPage(PPREGUNTAS)) ? getInfoPage(PPREGUNTAS)['cont
 
 					<!-- Logo desktop -->
 					<a href="<?= base_url(); ?>" class="logo">
-						<img src="<?= media() ?>/tienda/images/logo.png" alt=" Pc Gamer ">
+						<img src="<?= media() ?>/tienda/images/logo.png" alt=" Colombia Soccer ">
 					</a>
 
 					<!-- Menu desktop -->
@@ -190,7 +190,7 @@ $infoPreguntas = !empty(getInfoPage(PPREGUNTAS)) ? getInfoPage(PPREGUNTAS)['cont
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->
 			<div class="logo-mobile">
-				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.png" alt=" Pc Gamer "></a>
+				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.png" alt=" Colombia Soccer "></a>
 			</div>
 
 			<!-- Icon header -->

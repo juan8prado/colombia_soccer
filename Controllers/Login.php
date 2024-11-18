@@ -14,8 +14,8 @@
 
 		public function login()
 		{
-			$data['page_tag'] = "Login - Pc Gamer ";
-			$data['page_title'] = " Pc Gamer ";
+			$data['page_tag'] = "Login - Colombia Soccer ";
+			$data['page_title'] = " Colombia Soccer ";
 			$data['page_name'] = "login";
 			$data['page_functions_js'] = "functions_login.js";
 			$this->views->getView($this,"login",$data);

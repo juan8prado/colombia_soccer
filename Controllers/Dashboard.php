@@ -17,8 +17,8 @@
 		public function dashboard()
 		{
 			$data['page_id'] = 2;
-			$data['page_tag'] = "Dashboard - Pc Gamer";
-			$data['page_title'] = "Dashboard - Pc Gamer";
+			$data['page_tag'] = "Dashboard - Colombia Soccer";
+			$data['page_title'] = "Dashboard - Colombia Soccer";
 			$data['page_name'] = "dashboard";
 			$data['page_functions_js'] = "functions_dashboard.js";
 			$data['usuarios'] = $this->model->cantUsuarios();

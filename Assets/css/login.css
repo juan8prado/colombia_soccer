@@ -150,15 +150,15 @@ body {
 }
 
 .form-control {
-  width: 100%;
+  width: 80%;
   padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+  margin-bottom: 60px;
+  border: 1.5px solid #009688;
   border-radius: 5px;
 }
 
 .btn-container button {
-  width: 100%;
+  width: 80%;
   background-color: #009688;
   color: #fff;
   border: none;
@@ -168,22 +168,31 @@ body {
   cursor: pointer;
 }
 
-.btn-container button:hover {
+/* .btn-container button:hover {
   background-color: #00796b;
-}
+} */
 
 .utility {
   display: flex;
   justify-content: space-between;
+  margin-top: -80px;
+  margin-bottom: 80px;
 }
 
 .utility a {
   color: #009688;
   text-decoration: none;
+  margin-left: 25px;
+  
 }
 
 .utility a:hover {
   text-decoration: underline;
+}
+.iniciar_sesion_olidaste_contrasena {
+  margin-left: -210px;
+  text-decoration: none;
+ 
 }
 
 .login-content .logo {
@@ -227,8 +236,9 @@ body {
 
 .login-content .login-box label {
   color: #000;
-  font-weight: 700;
-  margin-left: 300px;
+  font-weight: 1000;
+  margin-left: 0px;
+  margin-right: auto;
 }
 
 .login-content .login-box .utility {

@@ -676,7 +676,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*---------------------------------------------*/
 .main-menu>li.active-menu>a {
-  color: #f70909;
+  color: #04a093;
 }
 
 
@@ -2118,7 +2118,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .block1-txt:hover .block1-name,
 .block1-txt:hover .block1-info {
-  color: #21811d;
+  color: #00635a;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -2214,7 +2214,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .cl2 {
-  color: #4e943c;
+  color: #00635a;
 }
 
 .cl3 {
@@ -2473,7 +2473,7 @@ input.num-product::-webkit-inner-spin-button {
   margin-left: -20px;
   font-size: 20px;
   line-height: 1.1;
-  text-shadow: 2px 2px 5px #000000;
+  text-shadow: 2px 2px 5px #00635a;
 }
 
 
@@ -2776,7 +2776,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .bg1 {
-  background-color: #4e943c;
+  background-color: #00635a;
 }
 
 .bg2 {

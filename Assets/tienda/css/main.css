@@ -676,7 +676,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*---------------------------------------------*/
 .main-menu>li.active-menu>a {
-  color: #04a093;
+  color: #00635a;
 }
 
 
@@ -2226,7 +2226,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .cl5 {
-  color: #222;
+  color: #ffffff;
 }
 
 .cl6 {
@@ -2780,7 +2780,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .bg2 {
-  background-color: #e6e6e6;
+  background-color: #00635a;
 }
 
 .bg3 {

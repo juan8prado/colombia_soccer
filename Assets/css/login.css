@@ -184,10 +184,16 @@ body {
   text-decoration: none;
   margin-left: 25px;
   
+  
 }
 
 .utility a:hover {
   text-decoration: underline;
+}
+.olidaste_contrasena{
+  margin-left: 0px;
+  margin-top: 30px;
+  text-decoration: none;
 }
 .iniciar_sesion_olidaste_contrasena {
   margin-left: -210px;

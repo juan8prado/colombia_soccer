@@ -61,7 +61,7 @@ body {
 
 /* Estilo para el contenedor de paginación */
 .swiper-pagination {
-  width: 130px !important;
+  width: 93% !important;
   /* Establece el ancho deseado */
   background-color: rgba(250, 250, 250, 0.828);
   /* Fondo blanco con 51.7% de opacidad */
@@ -73,7 +73,8 @@ body {
   /* Alinea los bullets horizontalmente */
   justify-content: center;
   /* Centra los bullets dentro del contenedor */
-  margin-left: 180px;
+  margin-left: 10px;
+  margin-right: 20px;
 
 }
 
@@ -153,7 +154,7 @@ body {
   width: 80%;
   padding: 10px;
   margin-bottom: 60px;
-  border: 1.5px solid #00635a;
+  border: 2px solid #00635a;
   border-radius: 5px;
 }
 

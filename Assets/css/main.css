@@ -11779,6 +11779,10 @@ body.stop-scrolling {
   overflow: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 .sweet-overlay {
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;

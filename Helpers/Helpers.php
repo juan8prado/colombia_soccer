@@ -5,6 +5,8 @@
     require 'Libraries/phpmailer/PHPMailer.php';
     require 'Libraries/phpmailer/SMTP.php';
 
+
+
 	//Retorla la url del proyecto
 	function base_url()
 	{

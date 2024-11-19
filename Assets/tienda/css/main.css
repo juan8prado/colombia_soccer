@@ -172,7 +172,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 38px;
   bottom: 0px;
   right: 40px;
-  background-color: #717fe0;
+  background-color: #013d38;
   opacity: 0.5;
   justify-content: center;
   align-items: center;
@@ -2228,6 +2228,9 @@ input.num-product::-webkit-inner-spin-button {
 .cl5 {
   color: #ffffff;
 }
+.cll5{
+  color: #000000;
+}
 
 .cl6 {
   color: #888;
@@ -2784,7 +2787,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .bg3 {
-  background-color: #222;
+  background-color: #00635a;
 }
 
 .bg5 {

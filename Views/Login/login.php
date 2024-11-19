@@ -24,14 +24,36 @@
         <!-- Swiper Slider -->
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 1.jpg" alt="Slide 1"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 2.jpg" alt="Slide 2"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 3.jpg" alt="Slide 3"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 4.jpg" alt="Slide 4"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 5.jpg" alt="Slide 5"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 6.jpg" alt="Slide 6"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 7.jpg" alt="Slide 7"></div>
-            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagen 8.jpg" alt="Slide 8"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 1.jpg" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 2.jpg" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 3.jpg" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 4.jpg" alt="Slide 4"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 5.jpg" alt="Slide 5"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 6.jpg" alt="Slide 6"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 7.jpg" alt="Slide 7"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 8.jpg" alt="Slide 8"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 9.jpg" alt="Slide 9"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 10.jpg" alt="Slide 10"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 11.jpg" alt="Slide 11"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 12.jpg" alt="Slide 12"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 13.jpg" alt="Slide 13"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 14.jpg" alt="Slide 14"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 15.jpg" alt="Slide 15"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 16.jpg" alt="Slide 16"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 17.jpg" alt="Slide 17"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 18.jpg" alt="Slide 18"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 19.jpg" alt="Slide 19"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 20.jpg" alt="Slide 20"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 21.jpg" alt="Slide 21"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 22.jpg" alt="Slide 22"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 23.jpg" alt="Slide 23"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 24.jpg" alt="Slide 24"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 25.jpg" alt="Slide 25"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 26.jpg" alt="Slide 26"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 27.jpg" alt="Slide 27"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 28.jpg" alt="Slide 28"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 29.jpg" alt="Slide 29"></div>
+            <div class="swiper-slide"><img src="<?= media(); ?>/images/imagenes del login/imagen 30.jpg" alt="Slide 30"></div>
           </div>
           <!-- Add Pagination -->
           <div class="swiper-pagination"></div>

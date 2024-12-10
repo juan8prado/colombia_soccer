@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-11-2024 a las 05:07:15
+-- Tiempo de generación: 10-12-2024 a las 14:17:32
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -199,7 +199,7 @@ CREATE TABLE `pedido` (
 --
 
 INSERT INTO `pedido` (`idpedido`, `referenciacobro`, `idtransaccionpaypal`, `datospaypal`, `personaid`, `fecha`, `costo_envio`, `monto`, `tipopagoid`, `direccion_envio`, `status`) VALUES
-(3, NULL, NULL, NULL, 1, '2024-11-13 23:01:24', 5.00, 100005.00, 2, 'HHG, GD', 'Pendiente');
+(3, '65621', NULL, NULL, 1, '2024-11-13 23:01:24', 5.00, 100005.00, 2, 'HHG, GD', 'Aprobado');
 
 -- --------------------------------------------------------
 
@@ -249,15 +249,15 @@ INSERT INTO `permisos` (`idpermiso`, `rolid`, `moduloid`, `r`, `w`, `u`, `d`) VA
 (27, 3, 7, 0, 0, 0, 0),
 (28, 3, 8, 0, 0, 0, 0),
 (29, 3, 9, 0, 0, 0, 0),
-(30, 4, 1, 1, 0, 0, 0),
-(31, 4, 2, 0, 0, 0, 0),
-(32, 4, 3, 1, 1, 1, 0),
-(33, 4, 4, 1, 0, 0, 0),
-(34, 4, 5, 1, 0, 1, 0),
-(35, 4, 6, 0, 0, 0, 0),
-(36, 4, 7, 1, 0, 0, 0),
-(37, 4, 8, 1, 0, 0, 0),
-(38, 4, 9, 0, 0, 0, 0);
+(48, 4, 1, 1, 0, 0, 0),
+(49, 4, 2, 0, 0, 0, 0),
+(50, 4, 3, 0, 0, 0, 0),
+(51, 4, 4, 0, 0, 0, 0),
+(52, 4, 5, 1, 0, 0, 0),
+(53, 4, 6, 0, 0, 0, 0),
+(54, 4, 7, 1, 0, 0, 0),
+(55, 4, 8, 1, 0, 0, 0),
+(56, 4, 9, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -358,7 +358,7 @@ INSERT INTO `producto` (`idproducto`, `categoriaid`, `codigo`, `nombre`, `descri
 (8, 4, '895248', 'Guayos de Fútbol Dominio Total', '<p style=\"text-align: justify;\">Estos guayos de f&uacute;tbol est&aacute;n dise&ntilde;ados para ofrecer una combinaci&oacute;n &oacute;ptima de tracci&oacute;n, control y comodidad en cada jugada. Con una parte superior texturizada que proporciona un mejor toque de bal&oacute;n, estos guayos son ideales para jugadores que buscan precisi&oacute;n en el campo. La suela cuenta con tacos estrat&eacute;gicamente ubicados para una tracci&oacute;n superior en superficies de c&eacute;sped natural y sint&eacute;tico, mientras que la plantilla acolchada reduce la presi&oacute;n y mejora el confort durante todo el partido. Su dise&ntilde;o ligero permite movimientos r&aacute;pidos, asegurando el m&aacute;ximo rendimiento.</p> <hr /> <p style=\"text-align: justify;\"><strong>Tabla de Tallas</strong></p> <table> <thead> <tr> <th>Talla</th> <th>Longitud del Pie (cm)</th> </tr> </thead> <tbody> <tr> <td>38</td> <td>24.0</td> </tr> <tr> <td>39</td> <td>24.5</td> </tr> <tr> <td>40</td> <td>25.0</td> </tr> <tr> <td>41</td> <td>25.5</td> </tr> <tr> <td>42</td> <td>26.0</td> </tr> <tr> <td>43</td> <td>26.5</td> </tr> <tr> <td>44</td> <td>27.0</td> </tr> <tr> <td>45</td> <td>27.5</td> </tr> <tr> <td>46</td> <td>28.0</td> </tr> </tbody> </table> <p style=\"text-align: justify;\">Disponibles en tallas desde la 38 hasta la 46, estos guayos garantizan un ajuste perfecto para todos los jugadores que buscan elevar su dominio y precisi&oacute;n en el juego</p>', 100000.00, 50, NULL, '2024-08-23 11:21:07', 'guayos-de-futbol-dominio-total', 1),
 (9, 4, '8952456', 'Guayos de Fútbol Agarre y Velocidad', '<div class=\"flex items-center gap-0 overflow-hidden\" aria-haspopup=\"dialog\" aria-expanded=\"true\" aria-controls=\"radix-:r1l:\" data-state=\"open\"> <p style=\"text-align: justify;\">Estos guayos est&aacute;n dise&ntilde;ados para jugadores que priorizan la velocidad y el agarre en el campo. Con una parte superior de material sint&eacute;tico ligero, estos guayos se adaptan al pie como una segunda piel, proporcionando comodidad y estabilidad. La suela incorpora tacos multidireccionales que ofrecen un agarre superior en giros y cambios de direcci&oacute;n r&aacute;pidos. Adem&aacute;s, el dise&ntilde;o aerodin&aacute;mico reduce la resistencia al viento, maximizando la velocidad. Un interior acolchado asegura el confort y protecci&oacute;n para mantenerte en tu mejor nivel durante todo el partido.</p> <hr /> <p style=\"text-align: justify;\"><strong>Tabla de Tallas</strong></p> <table> <thead> <tr> <th>Talla</th> <th>Longitud del Pie (cm)</th> </tr> </thead> <tbody> <tr> <td>38</td> <td>24.0</td> </tr> <tr> <td>39</td> <td>24.7</td> </tr> <tr> <td>40</td> <td>25.3</td> </tr> <tr> <td>41</td> <td>26.0</td> </tr> <tr> <td>42</td> <td>26.7</td> </tr> <tr> <td>43</td> <td>27.3</td> </tr> <tr> <td>44</td> <td>28.0</td> </tr> <tr> <td>45</td> <td>28.7</td> </tr> <tr> <td>46</td> <td>29.3</td> </tr> </tbody> </table> <p style=\"text-align: justify;\">Disponibles en tallas desde la 38 hasta la 46, estos guayos ofrecen el ajuste perfecto para cada jugador que busque combinar velocidad con un excelente agarre, superando los desaf&iacute;os de cada juego con agilidad y control.</p> </div> <div class=\"flex items-center gap-2 pr-1 leading-0\" style=\"text-align: justify;\">&nbsp;</div>', 130000.00, 40, NULL, '2024-08-23 11:38:33', 'guayos-de-futbol-agarre-y-velocidad', 1),
 (10, 5, '9255458', 'Medias de Fútbol Sujeción y Comodidad', '<p style=\"text-align: justify;\">Estas medias de f&uacute;tbol est&aacute;n dise&ntilde;adas para ofrecer soporte y confort durante todo el partido. Fabricadas con una mezcla de materiales el&aacute;sticos y transpirables, mantienen los pies secos y frescos en todo momento. El dise&ntilde;o anat&oacute;mico se adapta perfectamente a la forma del pie, mientras que las zonas acolchadas en el tal&oacute;n y la planta brindan amortiguaci&oacute;n adicional para reducir el impacto. La banda de sujeci&oacute;n en el arco del pie proporciona un ajuste firme y c&oacute;modo, asegurando que las medias se mantengan en su lugar incluso durante los movimientos m&aacute;s intensos.</p> <hr /> <p style=\"text-align: justify;\"><strong>Tabla de Tallas</strong></p> <table> <thead> <tr> <th>Talla</th> <th>Longitud del Pie (cm)</th> </tr> </thead> <tbody> <tr> <td>S</td> <td>22-24</td> </tr> <tr> <td>M</td> <td>24-26</td> </tr> <tr> <td>L</td> <td>26-28</td> </tr> <tr> <td>XL</td> <td>28-30</td> </tr> </tbody> </table> <p style=\"text-align: justify;\">Disponibles en tallas desde S hasta XL, estas medias son ideales para jugadores de todos los niveles, proporcionando sujeci&oacute;n y comodidad para que puedas concentrarte solo en el juego.</p>', 80000.00, 26, NULL, '2024-08-23 11:59:18', 'medias-de-futbol-sujecion-y-comodidad', 1),
-(11, 5, '58234646', 'Medias de Fútbol Resistencia y Ventilación', '<p style=\"text-align: justify;\">Estas medias de f&uacute;tbol han sido creadas para brindar durabilidad y frescura durante los partidos m&aacute;s exigentes. Su tejido de alta resistencia ofrece un ajuste ce&ntilde;ido que evita deslizamientos, mientras que las zonas de ventilaci&oacute;n estrat&eacute;gicamente ubicadas permiten una &oacute;ptima transpirabilidad, manteniendo los pies secos y frescos. Con refuerzos en la puntera y el tal&oacute;n, estas medias garantizan una mayor durabilidad y protecci&oacute;n en cada paso. La banda de compresi&oacute;n en el arco ayuda a mejorar la circulaci&oacute;n y proporciona un ajuste c&oacute;modo y seguro.</p> <hr /> <p style=\"text-align: justify;\"><strong>Tabla de Tallas</strong></p> <table> <thead> <tr> <th>Talla</th> <th>Longitud del Pie (cm)</th> </tr> </thead> <tbody> <tr> <td>S</td> <td>22-24</td> </tr> <tr> <td>M</td> <td>24-26</td> </tr> <tr> <td>L</td> <td>26-28</td> </tr> <tr> <td>XL</td> <td>28-30</td> </tr> </tbody> </table> <p style=\"text-align: justify;\">Disponibles en tallas de S a XL, estas medias ofrecen el soporte y la durabilidad necesarios para cualquier nivel de juego, ayud&aacute;ndote a mantenerte c&oacute;modo y preparado para cada desaf&iacute;o en el campo.</p>', 50000.00, 200, NULL, '2024-11-12 22:29:55', 'medias-de-futbol-resistencia-y-ventilacion', 1);
+(11, 5, '58234646', 'Medias de Fútbol Resistencia y Ventilación', '<p style=\"text-align: justify;\">Estas medias de f&uacute;tbol han sido creadas para brindar durabilidad y frescura durante los partidos m&aacute;s exigentes. Su tejido de alta resistencia ofrece un ajuste ce&ntilde;ido que evita deslizamientos, mientras que las zonas de ventilaci&oacute;n estrat&eacute;gicamente ubicadas permiten una &oacute;ptima transpirabilidad, manteniendo los pies secos y frescos. Con refuerzos en la puntera y el tal&oacute;n, estas medias garantizan una mayor durabilidad y protecci&oacute;n en cada paso. La banda de compresi&oacute;n en el arco ayuda a mejorar la circulaci&oacute;n y proporciona un ajuste c&oacute;modo y seguro.</p> <hr /> <p style=\"text-align: justify;\"><strong>Tabla de Tallas</strong></p> <table> <thead> <tr> <th>Talla</th> <th>Longitud del Pie (cm)</th> </tr> </thead> <tbody> <tr> <td>S</td> <td>22-24</td> </tr> <tr> <td>M</td> <td>24-26</td> </tr> <tr> <td>L</td> <td>26-28</td> </tr> <tr> <td>XL</td> <td>28-30</td> </tr> </tbody> </table> <p style=\"text-align: justify;\">Disponibles en tallas de S a XL, estas medias ofrecen el soporte y la durabilidad necesarios para cualquier nivel de juego, ayud&aacute;ndote a mantenerte c&oacute;modo y preparado para cada desaf&iacute;o en el campo.</p>', 50000.00, 20, NULL, '2024-11-12 22:29:55', 'medias-de-futbol-resistencia-y-ventilacion', 1);
 
 -- --------------------------------------------------------
 
@@ -396,7 +396,7 @@ INSERT INTO `rol` (`idrol`, `nombrerol`, `descripcion`, `status`) VALUES
 (1, 'Administrador', 'Acceso a todo el sistema', 1),
 (2, 'Supervisor', 'Supervisor de tiendas', 1),
 (3, 'Cliente', 'Clientes en general', 1),
-(4, 'Entrenador', 'Entrenamiento Personal', 1);
+(4, 'Arbitro', 'Trasparecía & Neutralidad', 1);
 
 -- --------------------------------------------------------
 
@@ -410,6 +410,13 @@ CREATE TABLE `suscripciones` (
   `email` varchar(200) NOT NULL,
   `datecreated` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_swedish_ci;
+
+--
+-- Volcado de datos para la tabla `suscripciones`
+--
+
+INSERT INTO `suscripciones` (`idsuscripcion`, `nombre`, `email`, `datecreated`) VALUES
+(3, 'Oscar', 'oscar23@gmail.com', '2024-11-19 09:12:56');
 
 -- --------------------------------------------------------
 
@@ -590,7 +597,7 @@ ALTER TABLE `pedido`
 -- AUTO_INCREMENT de la tabla `permisos`
 --
 ALTER TABLE `permisos`
-  MODIFY `idpermiso` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `idpermiso` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT de la tabla `persona`
@@ -626,7 +633,7 @@ ALTER TABLE `rol`
 -- AUTO_INCREMENT de la tabla `suscripciones`
 --
 ALTER TABLE `suscripciones`
-  MODIFY `idsuscripcion` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idsuscripcion` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `tipopago`

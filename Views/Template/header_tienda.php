@@ -292,7 +292,7 @@ $infoPreguntas = !empty(getInfoPage(PPREGUNTAS)) ? getInfoPage(PPREGUNTAS)['cont
 					<input type="hidden" name="p" value="1">
 					<input class="plh3" type="text" name="s" placeholder="Buscar...">
 				</form>
-			</div>
+			</div> baacgroun c 
 		</div>
 	</header>
 	<!-- Cart -->
